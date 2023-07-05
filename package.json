@@ -1,12 +1,13 @@
 {
   "name": "@thinkincoin-libs/uniswap-v2-sdk",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.0.4",
   "description": "🛠 An SDK for building applications on top of Uniswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "repository": "https://github.com/thinkincoin/uniswap-v2-sdk.git",
   "keywords": [
@@ -24,7 +25,8 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "^3.0.0-alpha.3",
+    "@thinkincoin-libs/sdk-core": "^3.3.2",
+    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
