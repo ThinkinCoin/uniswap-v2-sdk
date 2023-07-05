@@ -1377,6 +1377,31 @@
   dependencies:
     type-detect "4.0.8"
 
+"@thinkincoin-libs/sdk-core@^3.3.1", "@thinkincoin-libs/sdk-core@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@thinkincoin-libs/sdk-core/-/sdk-core-3.3.2.tgz#14bfccbcab0e3f6e86ab2da6e389ddfbc86772f8"
+  integrity sha512-SBaIs/j1VR4xLfRwVOBmGFxfZTk9whNR/6mgLx8mdidhE7KP0X8yKrKJx6I+9zvye+6nisLwB0zKxhGki0l+dg==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    "@thinkincoin-libs/sdk-core" "^3.3.1"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@thinkincoin-libs/uniswap-v2-sdk@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@thinkincoin-libs/uniswap-v2-sdk/-/uniswap-v2-sdk-3.0.4.tgz#7aecb31cdfb93e3a37877375edaea2389b95a02b"
+  integrity sha512-qX9oFWVhE7sQ4TVCK56g3s3IBWz864Ql2ENbTK+J0iFXuGawQ/5JBlV3Njmj4s+BfOsWyutsJzRWVQ/zw1FDjQ==
+  dependencies:
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@thinkincoin-libs/sdk-core" "^3.3.2"
+    "@thinkincoin-libs/uniswap-v2-sdk" "^3.0.4"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@types/babel__core@^7.1.7":
   version "7.20.1"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.1.tgz#916ecea274b0c776fec721e333e55762d3a9614b"
@@ -1576,33 +1601,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@uniswap/sdk-core@^3.0.0-alpha.3":
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-3.2.6.tgz#1a652516fab0c6bc1420c2226648da967a10f52a"
-  integrity sha512-MvH/3G0W0sM2g7XjaUy9qU7IabxL/KQp/ucU0AQGpVxiTaAhmVRtsjkkv9UDyzpIXVrmevl4kRgV7KKE29UuXA==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
 "@uniswap/v2-core@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
-
-"@uniswap/v2-sdk@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-sdk/-/v2-sdk-3.0.1.tgz#690c484104c1debd1db56a236e5497def53d698b"
-  integrity sha512-eSpm2gjo2CZh9FACH5fq42str/oSNyWcDxB27o5k44bEew4sxb+pld4gGIf/byJndLBvArR9PtH8c0n/goNOTw==
-  dependencies:
-    "@ethersproject/address" "^5.0.0"
-    "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "^3.0.0-alpha.3"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 abab@^2.0.0:
   version "2.0.6"
