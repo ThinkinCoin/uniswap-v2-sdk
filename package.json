@@ -25,15 +25,15 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@thinkincoin-libs/sdk-core": "^3.3.7",
-    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.6",
+    "@thinkincoin-libs/sdk-core": "^4.0.2",
+    "@uniswap/v2-sdk": "^3.0.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
-    "@thinkincoin-libs/uniswap-v2-core": "^1.0.1",
+    "@uniswap/v2-core": "^1.0.1",
     "tsdx": "^0.14.1"
   },
   "engines": {
