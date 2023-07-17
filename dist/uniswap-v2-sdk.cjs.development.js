@@ -5,7 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var JSBI = _interopDefault(require('jsbi'));
-var sdkCore = require('@thinkincoin-libs/sdk-core');
+var sdkCore = require('@thinkincoin/sdk-core');
 var invariant = _interopDefault(require('tiny-invariant'));
 var solidity = require('@ethersproject/solidity');
 var address = require('@ethersproject/address');

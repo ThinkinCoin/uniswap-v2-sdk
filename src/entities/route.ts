@@ -1,5 +1,5 @@
 import invariant from 'tiny-invariant'
-import { Currency, Price, Token } from '@thinkincoin-libs/sdk-core'
+import { Currency, Price, Token } from '@thinkincoin/sdk-core'
 
 import { Pair } from './pair'
 

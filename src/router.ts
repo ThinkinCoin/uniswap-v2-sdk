@@ -1,4 +1,4 @@
-import { Token, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@thinkincoin-libs/sdk-core'
+import { Token, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@thinkincoin/sdk-core'
 import { Trade } from './entities'
 import invariant from 'tiny-invariant'
 

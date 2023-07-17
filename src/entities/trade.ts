@@ -8,7 +8,7 @@ import {
   Price,
   sortedInsert,
   TradeType
-} from '@thinkincoin-libs/sdk-core'
+} from '@thinkincoin/sdk-core'
 import { ONE, ZERO } from '../constants'
 import invariant from 'tiny-invariant'
 

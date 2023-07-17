@@ -1377,13 +1377,13 @@
   dependencies:
     type-detect "4.0.8"
 
-"@thinkincoin-libs/sdk-core@^3.3.1", "@thinkincoin-libs/sdk-core@^3.3.2":
+"@thinkincoin/sdk-core@^3.3.1", "@thinkincoin/sdk-core@^3.3.2":
   version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@thinkincoin-libs/sdk-core/-/sdk-core-3.3.2.tgz#14bfccbcab0e3f6e86ab2da6e389ddfbc86772f8"
+  resolved "https://registry.yarnpkg.com/@thinkincoin/sdk-core/-/sdk-core-3.3.2.tgz#14bfccbcab0e3f6e86ab2da6e389ddfbc86772f8"
   integrity sha512-SBaIs/j1VR4xLfRwVOBmGFxfZTk9whNR/6mgLx8mdidhE7KP0X8yKrKJx6I+9zvye+6nisLwB0zKxhGki0l+dg==
   dependencies:
     "@ethersproject/address" "^5.0.2"
-    "@thinkincoin-libs/sdk-core" "^3.3.1"
+    "@thinkincoin/sdk-core" "^3.3.1"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.4"
@@ -1402,7 +1402,7 @@
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    "@thinkincoin-libs/sdk-core" "^3.3.2"
+    "@thinkincoin/sdk-core" "^3.3.2"
     "@thinkincoin-libs/uniswap-v2-sdk" "^3.0.4"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"

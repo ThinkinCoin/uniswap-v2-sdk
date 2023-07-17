@@ -1,4 +1,4 @@
-import { Currency, Percent, TradeType } from '@thinkincoin-libs/sdk-core';
+import { Currency, Percent, TradeType } from '@thinkincoin/sdk-core';
 import { Trade } from './entities';
 /**
  * Options for producing the arguments to send call to the router.

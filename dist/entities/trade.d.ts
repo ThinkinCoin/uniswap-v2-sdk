@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Percent, Price, TradeType } from '@thinkincoin-libs/sdk-core';
+import { Currency, CurrencyAmount, Percent, Price, TradeType } from '@thinkincoin/sdk-core';
 import { Pair } from './pair';
 import { Route } from './route';
 interface InputOutput<TInput extends Currency, TOutput extends Currency> {

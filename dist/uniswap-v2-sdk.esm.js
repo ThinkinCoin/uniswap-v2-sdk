@@ -1,5 +1,5 @@
 import JSBI from 'jsbi';
-import { CurrencyAmount, sqrt, Token, Price, TradeType, Fraction, computePriceImpact, sortedInsert, validateAndParseAddress } from '@thinkincoin-libs/sdk-core';
+import { CurrencyAmount, sqrt, Token, Price, TradeType, Fraction, computePriceImpact, sortedInsert, validateAndParseAddress } from '@thinkincoin/sdk-core';
 import invariant from 'tiny-invariant';
 import { keccak256, pack } from '@ethersproject/solidity';
 import { getCreate2Address } from '@ethersproject/address';

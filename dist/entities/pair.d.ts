@@ -1,4 +1,4 @@
-import { BigintIsh, Price, Token, CurrencyAmount } from '@thinkincoin-libs/sdk-core';
+import { BigintIsh, Price, Token, CurrencyAmount } from '@thinkincoin/sdk-core';
 export declare const computePairAddress: ({ factoryAddress, tokenA, tokenB }: {
     factoryAddress: string;
     tokenA: Token;
